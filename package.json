@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "description": "A Promise It Won’t Hurt fork. This is a Nodeschool's workshop adopted for Node 12. No global installation is required. The package does not work with Node 14 or newer.",
   "scripts": {
-    "start":    "node node_modules/.bin/promise-it-wont-hurt",
+    "start":  "node node_modules/.bin/promise-it-wont-hurt",
     "print":  "node node_modules/.bin/promise-it-wont-hurt print",
     "run":    "node node_modules/.bin/promise-it-wont-hurt run",
     "verify": "node node_modules/.bin/promise-it-wont-hurt verify"
