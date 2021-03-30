@@ -1,23 +1,23 @@
-# A "Promise It Won’t Hurt" fork
+# "Promise It Won’t Hurt" within Docker
 
-This is a Nodeschool's workshop adopted for Node 12. No global installation is required.
+![Nodeschool promise-it-wont-hurt](./cover.png)
+
+This is a [Nodeschool's](https://nodeschool.io/) workshop dockerized with Node 12.
 
 **Warning:** the package does not work with Node 14 or newer.
 
+## Usage
+### First run
+* `docker-compose up --build`
+* `./run.sh npm i`
 
-## Usage example
+### Interacting commands
+* `./run.sh npm run start`
+* `./run.sh npm run print`
+* `./run.sh npm run verify src/filename.js`
+* `./run.sh npm run help`
 
-The command
-```sh
-npm run verify src/script-name.js
-```
-is equal for
-```sh
-node node_modules/.bin/promise-it-wont-hurt verify src/script-name.js
-```
-
-See `scripts` property in `package.json` for available commands.
-
+Basically, instead of `promise-it-wont-hurt ...` you should type `./run.sh npm run ...`.
 
 ## Links
 
