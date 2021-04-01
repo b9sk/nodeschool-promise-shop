@@ -12,10 +12,10 @@ This is a [Nodeschool's](https://nodeschool.io/) workshop dockerized with Node 1
 * `./run.sh npm i`
 
 ### Interacting commands
-* `./run.sh npm run start`
-* `./run.sh npm run print`
-* `./run.sh npm run verify src/filename.js`
-* `./run.sh npm run help`
+* `./run npm run start`
+* `./run npm run print`
+* `./run npm run verify src/filename.js`
+* `./run npm run help`
 
 Basically, instead of `promise-it-wont-hurt ...` you should type `./run.sh npm run ...`.
 
