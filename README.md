@@ -9,7 +9,7 @@ This is a [Nodeschool's](https://nodeschool.io/) workshop dockerized with Node 1
 ## Usage
 ### First run
 * `docker-compose up --build`
-* `./run.sh npm i`
+* `./run npm i`
 
 ### Interacting commands
 * `./run npm run start`
